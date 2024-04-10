@@ -1,10 +1,11 @@
+
+import Navbar from './components/Navbar';
 import AppRoutes from './routes/AppRoutes';
-import Header from '../src/components/MainHeader/Header';
 
 function App() {
   return (
     <>
-    <Header/>
+      <Navbar />
       <AppRoutes />
     </>
   );
